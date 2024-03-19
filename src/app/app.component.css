@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2rem 2rem 2rem;
+  background-color: #2b3743;
+  color: white;
+  flex-wrap: wrap;
+  -webkit-box-shadow: -1px 9px 10px -3px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: -1px 9px 10px -3px rgba(0, 0, 0, 0.51);
+  box-shadow: -1px 9px 10px -3px rgba(0, 0, 0, 0.51);
+}
+.moods {
+  display: flex;
+
+  justify-content: end;
+  align-content: center;
+  gap: 1rem;
+}
+.moods svg {
+  fill: white;
+}
+.moods p {
+  margin: auto 0 auto 0;
+}
